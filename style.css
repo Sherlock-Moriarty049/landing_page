@@ -14,7 +14,7 @@ ul,
 .bottom,
 .card,
 .quote,
-.action {
+.action, .footer {
   display: flex;
 }
 body,
@@ -117,6 +117,12 @@ ul {
   background-color: #3882f6;
   border: 2px solid #f9faf8;
   border-radius: 5px;
+}
+.footer {
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 12px;
 }
 /* }
 .nav {
