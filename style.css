@@ -58,9 +58,17 @@ button {
   flex-direction: column;
   gap: 30px;
   align-items: center;
+  margin-bottom: 200px;
+}
+#awe {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 .main {
   font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
 }
 .bottom {
   display: flex;
@@ -68,4 +76,34 @@ button {
 }
 .card {
   flex: 1;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+  padding: 16px;
+  width: 150px;
+}
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  padding: 32px;
+}
+.side {
+  font-weight: 900;
+  text-align: right;
+}
+.action {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 32px;
+  color:#eee;
+}
+.call_head {
+  font-size: 24px;
+  font-weight: 900;
+}
+.action>button {
+  color: white;
+  border: solid white;
+  border-radius: 5px;
 }
