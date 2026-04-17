@@ -11,12 +11,14 @@ body {
 .right,
 ul,
 .article,
-.bottom, .card {
+.bottom,
+.card, .quote {
   display: flex;
 }
 body,
 .left,
-.article, .card {
+.article,
+.card, .quote {
   flex-direction: column;
 }
 .header,
@@ -66,19 +68,30 @@ ul {
   color: #1f2937;
   font-weight: 900;
 }
-.card, .bot {
-  background-color: #eee;
-  
-  border-radius: 10px;
+.card,
+.bot {
+  border-radius: 16px;
   align-items: center;
   text-align: center;
 }
-.bot{
-   height: 150px;
-   width: 250px;
+.bot {
+  height: 150px;
+  width: 250px;
   border: 4px solid #3882f6;
 }
+.quote {
 
+  background-color: #e5e7eb;
+}
+.quote_text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+}
+.side {
+  text-align: right;
+}
 /* }
 .nav {
   display: flex;
