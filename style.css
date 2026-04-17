@@ -12,13 +12,16 @@ body {
 ul,
 .article,
 .bottom,
-.card, .quote {
+.card,
+.quote,
+.action {
   display: flex;
 }
 body,
 .left,
 .article,
-.card, .quote {
+.card,
+.quote {
   flex-direction: column;
 }
 .header,
@@ -50,7 +53,7 @@ ul {
   font-weight: 900;
   color: #f9faf8;
 }
-.but-one {
+#but-one {
   background-color: #3882f6;
   color: #f9faf8;
   border-radius: 5px;
@@ -62,8 +65,10 @@ ul {
   justify-content: center;
   align-items: center;
 }
+.article {
+  align-items: center;
+}
 .main {
-  align-self: center;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
@@ -80,7 +85,6 @@ ul {
   border: 4px solid #3882f6;
 }
 .quote {
-
   background-color: #e5e7eb;
 }
 .quote_text {
@@ -91,6 +95,28 @@ ul {
 }
 .side {
   text-align: right;
+  font-weight: 900;
+  font-size: 18px;
+}
+.action {
+  background-color: #3882f6;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.call_head {
+  color: #f9faf8;
+  font-weight: 900;
+  font-size: 18px;
+}
+.call_text {
+  color: #e5e7eb;
+}
+#but-two {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
 }
 /* }
 .nav {
